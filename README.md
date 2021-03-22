@@ -12,7 +12,7 @@ The notebook [**LDA_notebook.ipynb**](https://github.com/cosasha97/collapsed-VB-
 ## Data
 The 'Data/' folder contains KOS and Reuters datasets. 
 
-## Results
+## Saved results
 Most results can quickly be generated from scratch. However, the collapsed VB algorithm is quite time consuming for large datasets. So to save the reader some time, we saved the outputs of this algorithm in the folder 'Results/'.
 
 ## Requirements
