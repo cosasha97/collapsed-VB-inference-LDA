@@ -13,5 +13,5 @@ In the folder 'results', there is some saved results because of the high computa
 ## Generate the results
 The notebook **LDA_notebook.ipynb** shows the reader how to use the scripts of the different methods and generate the results presented in the report.
 
-## requirements
+## Requirements
 See requirements.text
