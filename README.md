@@ -11,3 +11,5 @@ In the folder 'Data' are stored the KOS and Reuters datasets.
 In the folder 'results', there is some saved results because of the high computation time of the collapsed variational method.
 
 Finally, the notebook shows how to use the code and provides the results that can be found in the report. 
+
+## requirements
