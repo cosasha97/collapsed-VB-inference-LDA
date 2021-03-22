@@ -10,6 +10,8 @@ In the folder 'Data' are stored the KOS and Reuters datasets.
 
 In the folder 'results', there is some saved results because of the high computation time of the collapsed variational method.
 
-Finally, the notebook shows how to use the code and provides the results that can be found in the report. 
+## Generate the results
+The notebook **LDA_notebook.ipynb** shows the reader how to use the scripts of the different methods and generate the results presented in the report.
 
 ## requirements
+See requirements.text
