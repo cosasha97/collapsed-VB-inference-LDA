@@ -11,7 +11,7 @@ In the folder 'Data' are stored the KOS and Reuters datasets.
 In the folder 'results', there is some saved results because of the high computation time of the collapsed variational method.
 
 ## Generate the results
-The notebook **LDA_notebook.ipynb** shows the reader how to use the scripts of the different methods and generate the results presented in the report.
+The notebook [**LDA_notebook.ipynb**](https://github.com/cosasha97/collapsed-VB-inference-LDA/blob/main/LDA_notebook.ipynb) shows the reader how to use the scripts of the different methods and generate the results presented in the report.
 
 ## Requirements
 See requirements.text
