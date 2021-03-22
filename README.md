@@ -6,12 +6,14 @@ We coded the three methods proposed in 'A Collapsed Variational Bayesian Inferen
 - Gibbs.py collapsed Gibbs method
 - collapsed_VB.py: collapsed variational Bayes method
 
-In the folder 'Data' are stored the KOS and Reuters datasets. 
-
-In the folder 'results', there is some saved results because of the high computation time of the collapsed variational method.
-
 ## Generate the results
 The notebook [**LDA_notebook.ipynb**](https://github.com/cosasha97/collapsed-VB-inference-LDA/blob/main/LDA_notebook.ipynb) shows the reader how to use the scripts of the different methods and generate the results presented in the report.
 
+## Data
+The 'Data/' folder contains KOS and Reuters datasets. 
+
+## Results
+Most results can quickly be generated from scratch. However, the collapsed VB algorithm is quite time consuming for large datasets. So to save the reader some time, we saved the outputs of this algorithm in the folder 'Results/'.
+
 ## Requirements
-See requirements.text
+See requirements.txt
