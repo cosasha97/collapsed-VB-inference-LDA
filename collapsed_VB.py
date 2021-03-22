@@ -61,7 +61,7 @@ def LDA_collapsed(document_word_matrix, document_word_matrix_test, n_iter_doc, n
                 # useful matrices
                 phi_list = phi[d,W_list,:] # size W*K
                 phi_list_n = M.reshape((-1,1)) * phi_list # size W*K
-                PHI_N = np.tile(document_word_matrix[:, W_list, np.newaxis], (1, 1, 8)) * phi[:,W_list,:] # D*W*K
+                PHI_N = np.tile(document_word_matrix[:, W_list, np.newaxis], (1, 1, K)) * phi[:,W_list,:] # D*W*K
                 PHI_N_0 = PHI_N.sum(axis=0)
                 var = PHI_N * (1 - phi[:,W_list,:])
                 var_0 = var.sum(axis=0)
